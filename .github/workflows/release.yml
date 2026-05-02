@@ -1,0 +1,146 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+  workflow_dispatch:
+
+permissions:
+  contents: write   # needed to create GitHub Releases
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    env:
+      MANIFEST_REPO: ${{ vars.MANIFEST_REPO }}        # e.g. "yourname/personal-app-store"
+      APP_DISPLAY_NAME: "Hello"
+      APP_DESCRIPTION: "A minimal Hello World app to validate the pipeline."
+      APP_ICON_URL: ""                                # optional: hosted icon URL
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Derive version from tag
+        id: ver
+        run: |
+          TAG="${GITHUB_REF##*/}"
+          # Strip leading 'v'
+          NAME="${TAG#v}"
+          # versionCode = MAJOR*10000 + MINOR*100 + PATCH (e.g. 1.3.0 -> 10300)
+          IFS='.' read -r MA MI PA <<< "$NAME"
+          CODE=$(( MA*10000 + MI*100 + PA ))
+          echo "version_name=$NAME" >> "$GITHUB_OUTPUT"
+          echo "version_code=$CODE" >> "$GITHUB_OUTPUT"
+          echo "Resolved $NAME -> code $CODE"
+
+      - name: Decode keystore
+        env:
+          KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
+        run: |
+          echo "$KEYSTORE_BASE64" | base64 -d > "$RUNNER_TEMP/release.jks"
+          echo "KEYSTORE_PATH=$RUNNER_TEMP/release.jks" >> "$GITHUB_ENV"
+
+      - name: Grant gradlew exec
+        run: chmod +x ./gradlew || true
+
+      - name: Build signed release APK
+        env:
+          VERSION_CODE: ${{ steps.ver.outputs.version_code }}
+          VERSION_NAME: ${{ steps.ver.outputs.version_name }}
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+        run: |
+          if [ -f ./gradlew ]; then
+            ./gradlew :app:assembleRelease --no-daemon
+          else
+            gradle :app:assembleRelease --no-daemon
+          fi
+
+      - name: Locate APK + compute metadata
+        id: apk
+        run: |
+          APK=$(find app/build/outputs/apk/release -name "*.apk" | head -n1)
+          if [ -z "$APK" ]; then echo "No APK found"; exit 1; fi
+          SHA=$(sha256sum "$APK" | awk '{print $1}')
+          SIZE=$(stat -c%s "$APK")
+          PKG=$(grep -oE 'applicationId\s*=\s*"[^"]+"' app/build.gradle.kts | head -n1 | sed -E 's/.*"([^"]+)"/\1/')
+          NEW_NAME="${PKG}-${{ steps.ver.outputs.version_name }}.apk"
+          cp "$APK" "$RUNNER_TEMP/$NEW_NAME"
+          echo "apk_path=$RUNNER_TEMP/$NEW_NAME" >> "$GITHUB_OUTPUT"
+          echo "apk_name=$NEW_NAME" >> "$GITHUB_OUTPUT"
+          echo "sha256=$SHA" >> "$GITHUB_OUTPUT"
+          echo "size=$SIZE" >> "$GITHUB_OUTPUT"
+          echo "package_name=$PKG" >> "$GITHUB_OUTPUT"
+
+      - name: Create GitHub Release with APK asset
+        id: gh_release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: ${{ env.APP_DISPLAY_NAME }} ${{ steps.ver.outputs.version_name }}
+          generate_release_notes: true
+          files: ${{ steps.apk.outputs.apk_path }}
+
+      - name: Build manifest entry JSON
+        id: entry
+        run: |
+          DOWNLOAD_URL="https://github.com/${{ github.repository }}/releases/download/${{ github.ref_name }}/${{ steps.apk.outputs.apk_name }}"
+          cat > "$RUNNER_TEMP/entry.json" <<EOF
+          {
+            "package_name": "${{ steps.apk.outputs.package_name }}",
+            "display_name": "${APP_DISPLAY_NAME}",
+            "description": "${APP_DESCRIPTION}",
+            "icon_url": "${APP_ICON_URL}",
+            "version_code": ${{ steps.ver.outputs.version_code }},
+            "version_name": "${{ steps.ver.outputs.version_name }}",
+            "apk_url": "${DOWNLOAD_URL}",
+            "apk_sha256": "${{ steps.apk.outputs.sha256 }}",
+            "apk_size_bytes": ${{ steps.apk.outputs.size }},
+            "min_sdk": 26,
+            "released_at": "$(date -u +%Y-%m-%dT%H:%M:%SZ)",
+            "source_repo": "${{ github.repository }}",
+            "release_url": "https://github.com/${{ github.repository }}/releases/tag/${{ github.ref_name }}"
+          }
+          EOF
+          cat "$RUNNER_TEMP/entry.json"
+
+      - name: Update central manifest repo
+        if: env.MANIFEST_REPO != ''
+        env:
+          GH_TOKEN: ${{ secrets.MANIFEST_REPO_TOKEN }}
+        run: |
+          set -euo pipefail
+          git config --global user.name  "release-bot"
+          git config --global user.email "release-bot@users.noreply.github.com"
+          git clone "https://x-access-token:${GH_TOKEN}@github.com/${MANIFEST_REPO}.git" manifest-repo
+          cd manifest-repo
+          mkdir -p docs
+          MANIFEST=docs/manifest.json
+          if [ ! -f "$MANIFEST" ]; then echo '{"apps":[]}' > "$MANIFEST"; fi
+          python3 - <<'PY'
+          import json, os, pathlib
+          entry = json.load(open(os.environ["RUNNER_TEMP"] + "/entry.json"))
+          path = pathlib.Path("docs/manifest.json")
+          data = json.load(open(path))
+          apps = [a for a in data.get("apps", []) if a.get("package_name") != entry["package_name"]]
+          apps.append(entry)
+          apps.sort(key=lambda a: a["package_name"])
+          data["apps"] = apps
+          from datetime import datetime, timezone
+          data["generated_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+          json.dump(data, open(path, "w"), indent=2)
+          PY
+          git add docs/manifest.json
+          git commit -m "Publish ${{ steps.apk.outputs.package_name }} ${{ steps.ver.outputs.version_name }}" || echo "no changes"
+          git push
