@@ -1,0 +1,298 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/mgroombridge/Documents/hello-world-app/hello-world-app/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/mgroombridge/Documents/hello-world-app/hello-world-app/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/mgroombridge/Documents/hello-world-app/hello-world-app/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/mgroombridge/Documents/hello-world-app/hello-world-app/app/src/main/AndroidManifest.xml:2:1-19:12
+MERGED from [androidx.activity:activity:1.9.2] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/e31070b0b718149835f7a12180328e38/transformed/activity-1.9.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.9.2] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/bf48263ab9d5eb68aee7b02669903c31/transformed/activity-ktx-1.9.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material3:material3-android:1.3.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/9df8872db763f3ee98ee29d8917b790c/transformed/material3-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/5f364b3eefb222b90a7387b36e5a5b2f/transformed/material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/a2c96cffd5532a698ebee538ad181260/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/27eaf292f66b1fa074605dfe8a7235c3/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/c2736505e08aefb9ef6488f22d7d1f32/transformed/animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/a3bd5a0f27b8aa88c6e432af86023139/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/00bacee05074be4862baa7f135c4f653/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/46ed728935a79c9061a8a5aa97482e17/transformed/ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/8cbeb49010bc33e7f554fed83f1514de/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/d266e7d93e4cabb0d84798bc233c1f1d/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/ba49c721823b267e8b7f2fe3e0baa37b/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/3afad567379bef68942c20909dce586e/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/d57489285929bcd7803e26d79a3ce99b/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/e0c7054120d0f2bfd873f78ed13f1293/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/25056b46b6978f7c1d1ddb155e9d1a2c/transformed/ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.activity:activity-compose:1.9.2] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/ece1445d86b1379527b90059629b4d38/transformed/activity-compose-1.9.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/52ba37c5e9746610356fe4dc8f0dcea0/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/60c09de34eb44c3818a631006d77964a/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/a763890cce7218e16bfcd4500f53a013/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/acbd48a98c3a8cd9f73f851d74ca4e31/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/ddcc5ef6b98718c20c6deadbc965b080/transformed/graphics-path-1.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.13.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/c1f35944c558dc06d12890336b0493ea/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/5cd2347f09ad107d55bf4a3a254ad900/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/a08927a9357d3b9d6a1c24cd2337874a/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/5972c48916bf3adf2efa95eb6d890e01/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.3] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/04c9042abb79215ee0d34893a5ba6b56/transformed/lifecycle-livedata-core-2.8.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.3] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/85a5744f4c2983616b6e7523f0736fb2/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/2c5732535a8710009c6d44dd00357a89/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.3] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/65e400f015bf594b26dda901b35b6808/transformed/lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/f37b001b90994b2dd23b76752c071375/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/c40813a6876f8fa67ddf44f700741661/transformed/lifecycle-viewmodel-ktx-2.8.3/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.3] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/2096c91301c0118e6bd5645f84b7e26a/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/154b8dd47ea8f899218ada4c038a5488/transformed/lifecycle-viewmodel-savedstate-2.8.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/7cdbf553b9b746cc61dc3f4576f27ee7/transformed/core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/792ba0790da4a3488d1352113c8e9670/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/9f22bae0a24bdfdf3249b441ab7365fd/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/451358c0abf3edd1012c044e8ba6d052/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/1db09fe45d5c4ca786c9cf5759aad3ad/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/4316b8c49bae56a9db139733f430e92c/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/a8a3693ca93bfaca1bf173c39866b2e4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/084ba12dda4a5071bee18684f20c49b8/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/7af152d029bd92ff534f745a79b6f619/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/b5aba6efc17b0c9b81235b7fbd634238/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from /Users/mgroombridge/Documents/hello-world-app/hello-world-app/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/mgroombridge/Documents/hello-world-app/hello-world-app/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/mgroombridge/Documents/hello-world-app/hello-world-app/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/mgroombridge/Documents/hello-world-app/hello-world-app/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/mgroombridge/Documents/hello-world-app/hello-world-app/app/src/main/AndroidManifest.xml:4:5-17:19
+INJECTED from /Users/mgroombridge/Documents/hello-world-app/hello-world-app/app/src/main/AndroidManifest.xml:4:5-17:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/25056b46b6978f7c1d1ddb155e9d1a2c/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/25056b46b6978f7c1d1ddb155e9d1a2c/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/acbd48a98c3a8cd9f73f851d74ca4e31/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/acbd48a98c3a8cd9f73f851d74ca4e31/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/c1f35944c558dc06d12890336b0493ea/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/c1f35944c558dc06d12890336b0493ea/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/f37b001b90994b2dd23b76752c071375/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/f37b001b90994b2dd23b76752c071375/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/1db09fe45d5c4ca786c9cf5759aad3ad/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/1db09fe45d5c4ca786c9cf5759aad3ad/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/a8a3693ca93bfaca1bf173c39866b2e4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/a8a3693ca93bfaca1bf173c39866b2e4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/084ba12dda4a5071bee18684f20c49b8/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/084ba12dda4a5071bee18684f20c49b8/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /Users/mgroombridge/Documents/hello-world-app/hello-world-app/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/c1f35944c558dc06d12890336b0493ea/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/mgroombridge/Documents/hello-world-app/hello-world-app/app/src/main/AndroidManifest.xml:7:9-35
+	android:label
+		ADDED from /Users/mgroombridge/Documents/hello-world-app/hello-world-app/app/src/main/AndroidManifest.xml:6:9-30
+	android:allowBackup
+		ADDED from /Users/mgroombridge/Documents/hello-world-app/hello-world-app/app/src/main/AndroidManifest.xml:5:9-35
+	android:theme
+		ADDED from /Users/mgroombridge/Documents/hello-world-app/hello-world-app/app/src/main/AndroidManifest.xml:8:9-72
+activity#dev.user.hello.MainActivity
+ADDED from /Users/mgroombridge/Documents/hello-world-app/hello-world-app/app/src/main/AndroidManifest.xml:9:9-16:20
+	android:exported
+		ADDED from /Users/mgroombridge/Documents/hello-world-app/hello-world-app/app/src/main/AndroidManifest.xml:11:13-36
+	android:name
+		ADDED from /Users/mgroombridge/Documents/hello-world-app/hello-world-app/app/src/main/AndroidManifest.xml:10:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/mgroombridge/Documents/hello-world-app/hello-world-app/app/src/main/AndroidManifest.xml:12:13-15:29
+action#android.intent.action.MAIN
+ADDED from /Users/mgroombridge/Documents/hello-world-app/hello-world-app/app/src/main/AndroidManifest.xml:13:17-69
+	android:name
+		ADDED from /Users/mgroombridge/Documents/hello-world-app/hello-world-app/app/src/main/AndroidManifest.xml:13:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/mgroombridge/Documents/hello-world-app/hello-world-app/app/src/main/AndroidManifest.xml:14:17-77
+	android:name
+		ADDED from /Users/mgroombridge/Documents/hello-world-app/hello-world-app/app/src/main/AndroidManifest.xml:14:27-74
+uses-sdk
+INJECTED from /Users/mgroombridge/Documents/hello-world-app/hello-world-app/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/mgroombridge/Documents/hello-world-app/hello-world-app/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mgroombridge/Documents/hello-world-app/hello-world-app/app/src/main/AndroidManifest.xml
+MERGED from [androidx.activity:activity:1.9.2] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/e31070b0b718149835f7a12180328e38/transformed/activity-1.9.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.2] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/e31070b0b718149835f7a12180328e38/transformed/activity-1.9.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.2] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/bf48263ab9d5eb68aee7b02669903c31/transformed/activity-ktx-1.9.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.2] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/bf48263ab9d5eb68aee7b02669903c31/transformed/activity-ktx-1.9.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/9df8872db763f3ee98ee29d8917b790c/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/9df8872db763f3ee98ee29d8917b790c/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/5f364b3eefb222b90a7387b36e5a5b2f/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/5f364b3eefb222b90a7387b36e5a5b2f/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/a2c96cffd5532a698ebee538ad181260/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/a2c96cffd5532a698ebee538ad181260/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/27eaf292f66b1fa074605dfe8a7235c3/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/27eaf292f66b1fa074605dfe8a7235c3/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/c2736505e08aefb9ef6488f22d7d1f32/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/c2736505e08aefb9ef6488f22d7d1f32/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/a3bd5a0f27b8aa88c6e432af86023139/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/a3bd5a0f27b8aa88c6e432af86023139/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/00bacee05074be4862baa7f135c4f653/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/00bacee05074be4862baa7f135c4f653/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/46ed728935a79c9061a8a5aa97482e17/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/46ed728935a79c9061a8a5aa97482e17/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/8cbeb49010bc33e7f554fed83f1514de/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/8cbeb49010bc33e7f554fed83f1514de/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/d266e7d93e4cabb0d84798bc233c1f1d/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/d266e7d93e4cabb0d84798bc233c1f1d/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/ba49c721823b267e8b7f2fe3e0baa37b/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/ba49c721823b267e8b7f2fe3e0baa37b/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/3afad567379bef68942c20909dce586e/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/3afad567379bef68942c20909dce586e/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/d57489285929bcd7803e26d79a3ce99b/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/d57489285929bcd7803e26d79a3ce99b/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/e0c7054120d0f2bfd873f78ed13f1293/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/e0c7054120d0f2bfd873f78ed13f1293/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/25056b46b6978f7c1d1ddb155e9d1a2c/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/25056b46b6978f7c1d1ddb155e9d1a2c/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.9.2] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/ece1445d86b1379527b90059629b4d38/transformed/activity-compose-1.9.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.2] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/ece1445d86b1379527b90059629b4d38/transformed/activity-compose-1.9.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/52ba37c5e9746610356fe4dc8f0dcea0/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/52ba37c5e9746610356fe4dc8f0dcea0/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/60c09de34eb44c3818a631006d77964a/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/60c09de34eb44c3818a631006d77964a/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/a763890cce7218e16bfcd4500f53a013/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/a763890cce7218e16bfcd4500f53a013/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/acbd48a98c3a8cd9f73f851d74ca4e31/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/acbd48a98c3a8cd9f73f851d74ca4e31/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/ddcc5ef6b98718c20c6deadbc965b080/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/ddcc5ef6b98718c20c6deadbc965b080/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/c1f35944c558dc06d12890336b0493ea/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/c1f35944c558dc06d12890336b0493ea/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/5cd2347f09ad107d55bf4a3a254ad900/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/5cd2347f09ad107d55bf4a3a254ad900/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/a08927a9357d3b9d6a1c24cd2337874a/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/a08927a9357d3b9d6a1c24cd2337874a/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/5972c48916bf3adf2efa95eb6d890e01/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/5972c48916bf3adf2efa95eb6d890e01/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.3] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/04c9042abb79215ee0d34893a5ba6b56/transformed/lifecycle-livedata-core-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.3] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/04c9042abb79215ee0d34893a5ba6b56/transformed/lifecycle-livedata-core-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.3] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/85a5744f4c2983616b6e7523f0736fb2/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.3] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/85a5744f4c2983616b6e7523f0736fb2/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/2c5732535a8710009c6d44dd00357a89/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/2c5732535a8710009c6d44dd00357a89/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.3] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/65e400f015bf594b26dda901b35b6808/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.3] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/65e400f015bf594b26dda901b35b6808/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/f37b001b90994b2dd23b76752c071375/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/f37b001b90994b2dd23b76752c071375/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/c40813a6876f8fa67ddf44f700741661/transformed/lifecycle-viewmodel-ktx-2.8.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/c40813a6876f8fa67ddf44f700741661/transformed/lifecycle-viewmodel-ktx-2.8.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.3] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/2096c91301c0118e6bd5645f84b7e26a/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.3] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/2096c91301c0118e6bd5645f84b7e26a/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/154b8dd47ea8f899218ada4c038a5488/transformed/lifecycle-viewmodel-savedstate-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/154b8dd47ea8f899218ada4c038a5488/transformed/lifecycle-viewmodel-savedstate-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/7cdbf553b9b746cc61dc3f4576f27ee7/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/7cdbf553b9b746cc61dc3f4576f27ee7/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/792ba0790da4a3488d1352113c8e9670/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/792ba0790da4a3488d1352113c8e9670/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/9f22bae0a24bdfdf3249b441ab7365fd/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/9f22bae0a24bdfdf3249b441ab7365fd/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/451358c0abf3edd1012c044e8ba6d052/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/451358c0abf3edd1012c044e8ba6d052/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/1db09fe45d5c4ca786c9cf5759aad3ad/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/1db09fe45d5c4ca786c9cf5759aad3ad/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/4316b8c49bae56a9db139733f430e92c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/4316b8c49bae56a9db139733f430e92c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/a8a3693ca93bfaca1bf173c39866b2e4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/a8a3693ca93bfaca1bf173c39866b2e4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/084ba12dda4a5071bee18684f20c49b8/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/084ba12dda4a5071bee18684f20c49b8/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/7af152d029bd92ff534f745a79b6f619/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/7af152d029bd92ff534f745a79b6f619/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/b5aba6efc17b0c9b81235b7fbd634238/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/b5aba6efc17b0c9b81235b7fbd634238/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /Users/mgroombridge/Documents/hello-world-app/hello-world-app/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/mgroombridge/Documents/hello-world-app/hello-world-app/app/src/main/AndroidManifest.xml
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/25056b46b6978f7c1d1ddb155e9d1a2c/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/25056b46b6978f7c1d1ddb155e9d1a2c/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/25056b46b6978f7c1d1ddb155e9d1a2c/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/acbd48a98c3a8cd9f73f851d74ca4e31/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/f37b001b90994b2dd23b76752c071375/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/f37b001b90994b2dd23b76752c071375/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/a8a3693ca93bfaca1bf173c39866b2e4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/a8a3693ca93bfaca1bf173c39866b2e4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/084ba12dda4a5071bee18684f20c49b8/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/084ba12dda4a5071bee18684f20c49b8/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/acbd48a98c3a8cd9f73f851d74ca4e31/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/acbd48a98c3a8cd9f73f851d74ca4e31/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/acbd48a98c3a8cd9f73f851d74ca4e31/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/acbd48a98c3a8cd9f73f851d74ca4e31/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/acbd48a98c3a8cd9f73f851d74ca4e31/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/acbd48a98c3a8cd9f73f851d74ca4e31/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/acbd48a98c3a8cd9f73f851d74ca4e31/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/c1f35944c558dc06d12890336b0493ea/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/c1f35944c558dc06d12890336b0493ea/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/c1f35944c558dc06d12890336b0493ea/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#dev.user.hello.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/c1f35944c558dc06d12890336b0493ea/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/c1f35944c558dc06d12890336b0493ea/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/c1f35944c558dc06d12890336b0493ea/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/c1f35944c558dc06d12890336b0493ea/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/c1f35944c558dc06d12890336b0493ea/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#dev.user.hello.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/c1f35944c558dc06d12890336b0493ea/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/c1f35944c558dc06d12890336b0493ea/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.3] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/f37b001b90994b2dd23b76752c071375/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.3] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/f37b001b90994b2dd23b76752c071375/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.3] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/f37b001b90994b2dd23b76752c071375/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/a8a3693ca93bfaca1bf173c39866b2e4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/a8a3693ca93bfaca1bf173c39866b2e4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/a8a3693ca93bfaca1bf173c39866b2e4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/a8a3693ca93bfaca1bf173c39866b2e4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/a8a3693ca93bfaca1bf173c39866b2e4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/a8a3693ca93bfaca1bf173c39866b2e4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/a8a3693ca93bfaca1bf173c39866b2e4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/a8a3693ca93bfaca1bf173c39866b2e4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/a8a3693ca93bfaca1bf173c39866b2e4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/a8a3693ca93bfaca1bf173c39866b2e4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/a8a3693ca93bfaca1bf173c39866b2e4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/a8a3693ca93bfaca1bf173c39866b2e4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/a8a3693ca93bfaca1bf173c39866b2e4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/a8a3693ca93bfaca1bf173c39866b2e4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/a8a3693ca93bfaca1bf173c39866b2e4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/a8a3693ca93bfaca1bf173c39866b2e4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/a8a3693ca93bfaca1bf173c39866b2e4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/a8a3693ca93bfaca1bf173c39866b2e4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/a8a3693ca93bfaca1bf173c39866b2e4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/a8a3693ca93bfaca1bf173c39866b2e4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mgroombridge/.gradle/caches/9.0.0/transforms/a8a3693ca93bfaca1bf173c39866b2e4/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92

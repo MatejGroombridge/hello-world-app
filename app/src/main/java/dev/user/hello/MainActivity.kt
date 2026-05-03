@@ -42,7 +42,7 @@ fun HelloApp() {
                 contentAlignment = Alignment.Center
             ) {
                 Text(
-                    text = "Hello, World 👋",
+                    text = "Hello, World v2 👋",
                     style = MaterialTheme.typography.headlineLarge
                 )
             }
