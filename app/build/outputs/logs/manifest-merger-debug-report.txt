@@ -81,7 +81,7 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/mgroombridge/.gradle
 	android:supportsRtl
 		ADDED from /Users/mgroombridge/Documents/hello-world-app/hello-world-app/app/src/main/AndroidManifest.xml:7:9-35
 	android:label
-		ADDED from /Users/mgroombridge/Documents/hello-world-app/hello-world-app/app/src/main/AndroidManifest.xml:6:9-30
+		ADDED from /Users/mgroombridge/Documents/hello-world-app/hello-world-app/app/src/main/AndroidManifest.xml:6:9-36
 	android:allowBackup
 		ADDED from /Users/mgroombridge/Documents/hello-world-app/hello-world-app/app/src/main/AndroidManifest.xml:5:9-35
 	android:theme
